@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2019-08-21T13:19:37Z" name="Default suite" finished-at="2019-08-21T13:19:37Z" duration-ms="131">
+    <groups>
+      <group name="regression">
+        <method signature="GroupingTestngTask.TestFour()[pri:2, instance:TestngGroupingTask.GroupingTestngTask@c540f5a]" name="TestFour" class="TestngGroupingTask.GroupingTestngTask"/>
+      </group> <!-- regression -->
+      <group name="smoke">
+        <method signature="GroupingTestngTask.TestFour()[pri:2, instance:TestngGroupingTask.GroupingTestngTask@c540f5a]" name="TestFour" class="TestngGroupingTask.GroupingTestngTask"/>
+        <method signature="GroupingTestngTask.TestTwo()[pri:0, instance:TestngGroupingTask.GroupingTestngTask@c540f5a]" name="TestTwo" class="TestngGroupingTask.GroupingTestngTask"/>
+      </group> <!-- smoke -->
+      <group name="sanity">
+        <method signature="GroupingTestngTask.TestThree()[pri:3, instance:TestngGroupingTask.GroupingTestngTask@c540f5a]" name="TestThree" class="TestngGroupingTask.GroupingTestngTask"/>
+        <method signature="GroupingTestngTask.TestTwo()[pri:0, instance:TestngGroupingTask.GroupingTestngTask@c540f5a]" name="TestTwo" class="TestngGroupingTask.GroupingTestngTask"/>
+      </group> <!-- sanity -->
+    </groups>
+    <test started-at="2019-08-21T13:19:37Z" name="Default test" finished-at="2019-08-21T13:19:37Z" duration-ms="131">
+      <class name="TestngGroupingTask.GroupingTestngTask">
+        <test-method signature="TestTwo()[pri:0, instance:TestngGroupingTask.GroupingTestngTask@c540f5a]" started-at="2019-08-21T18:49:37Z" name="TestTwo" finished-at="2019-08-21T18:49:37Z" duration-ms="35" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestTwo -->
+        <test-method signature="TestOne()[pri:1, instance:TestngGroupingTask.GroupingTestngTask@c540f5a]" started-at="2019-08-21T18:49:37Z" name="TestOne" finished-at="2019-08-21T18:49:37Z" duration-ms="5" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestOne -->
+        <test-method signature="TestFour()[pri:2, instance:TestngGroupingTask.GroupingTestngTask@c540f5a]" started-at="2019-08-21T18:49:37Z" name="TestFour" finished-at="2019-08-21T18:49:37Z" duration-ms="7" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestFour -->
+        <test-method signature="TestThree()[pri:3, instance:TestngGroupingTask.GroupingTestngTask@c540f5a]" started-at="2019-08-21T18:49:37Z" name="TestThree" finished-at="2019-08-21T18:49:37Z" duration-ms="8" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestThree -->
+      </class> <!-- TestngGroupingTask.GroupingTestngTask -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
